@@ -23,3 +23,5 @@ Depends:
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 LazyData: true
+URL: https://github.com/MSimovic21/balancR
+BugReports: https://github.com/MSimovic21/balancR/issues
