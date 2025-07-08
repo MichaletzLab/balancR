@@ -1,17 +1,17 @@
-citHeader("Please cite this package as:")
+citHeader("To cite the package, use:")
 
 bibentry(
   bibtype = "Article",
-  title   = "Harnessing the Full Power of Data to Characterise Biological Scaling Relationships",
-  author  = c(
-    person(given = "M", family = "Simovic"),
+  title = "Harnessing the Full Power of Data to Characterise Biological Scaling Relationships",
+  author = c(
+    person(given = "Milos", family = "Simovic"),
     person(given = "ST", family = "Michaletz")
   ),
-  year    = 2025,
+  year = 2025,
   journal = "Global Ecology and Biogeography",
-  volume  = "34",
-  number  = "2",
-  pages   = "e70019",
-  doi     = "10.1111/geb.70019",
-  url     = "https://doi.org/10.1111/geb.70019"
+  volume = 34,
+  number = 2,
+  pages = "e70019",
+  doi = "10.1111/geb.70019",
+  url = "https://doi.org/10.1111/geb.70019"
 )
