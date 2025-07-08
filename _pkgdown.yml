@@ -5,7 +5,7 @@ template:
 
 home:
   title: "balancR"
-  tagline: "Tools for balancing and scaling biological data"
+  tagline: "Tools for balancing and analyzing scaling of biological data"
 
 repo:
   url: https://github.com/MichaletzLab/balancR
