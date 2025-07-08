@@ -8,7 +8,9 @@ home:
   tagline: "Tools for balancing and analyzing scaling of biological data"
 
 repo:
-  url: https://github.com/MichaletzLab/balancR
+  home: https://github.com/MichaletzLab/balancR
+  source: https://github.com/MichaletzLab/balancR/blob/master/
+  issue: https://github.com/MichaletzLab/balancR/issues
   branch: master
 
 navbar:
