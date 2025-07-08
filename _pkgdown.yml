@@ -1,4 +1,20 @@
 url: https://michaletzlab.github.io/balancR
+
 template:
   bootstrap: 5
+
+home:
+  title: "balancR"
+  tagline: "Tools for balancing and scaling biological data"
+
+repo:
+  url: https://github.com/MichaletzLab/balancR
+  branch: master
+
+navbar:
+  structure:
+    left:
+      - home
+      - reference
+      - articles
 
