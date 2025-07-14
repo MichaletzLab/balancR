@@ -1,8 +1,9 @@
 # balancR 
+### Data balancing and scaling analysis
 
 [![pkgdown site](https://img.shields.io/badge/pkgdown-balancR-blue)](https://michaletzlab.github.io/balancR/) [![R-CMD-check](https://github.com/MichaletzLab/balancR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/MichaletzLab/balancR/actions/workflows/R-CMD-check.yaml)
 
-**balancR** provides tools for balancing imbalanced data in scaling analyses using
+**balancR** is an R package which provides tools for balancing imbalanced data in scaling analyses using
     bootstrapping, and for comparing regression coefficients (slopes and intercepts)
     between original and balanced samples.
 
