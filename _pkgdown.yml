@@ -1,22 +1,35 @@
-url: https://michaletzlab.github.io/balancR
-
+url: https://michaletzlab.github.io/balancR/
 template:
   bootstrap: 5
+  light-switch: true
+  bslib:
+    bootswatch: litera
+    pkgdown-nav-height: 60.36px
 
 home:
-  title: "balancR"
-  tagline: "Tools for balancing and analyzing scaling of biological data"
+  title: balancR
+  tagline: A tool for data balancing and scaling analysis
+  links:
+    - text: Get started with balancR
+      href: articles/introduction.html
 
 repo:
-  home: https://github.com/MichaletzLab/balancR
-  source: https://github.com/MichaletzLab/balancR/blob/master/
-  issue: https://github.com/MichaletzLab/balancR/issues
-  branch: master
+  url:
+    home: https://github.com/MichaletzLab/balancR
+    source: https://github.com/MichaletzLab/balancR/blob/master
+    issue: https://github.com/MichaletzLab/balancR/issues
+    user: https://github.com
 
-navbar:
-  structure:
-    left:
-      - home
-      - reference
-      - articles
+reference:
+  - title: "Core Functions"
+    contents:
+      - create_bins
+      - balanced_scaling
+      - plot_balanced_scaling
+      - compare_coefficients
+      - xylem_scaling_simulation_dataset
 
+articles:
+  - title: Get started
+    contents:
+      - introduction

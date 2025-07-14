@@ -1,12 +1,11 @@
 Package: balancR
 Type: Package
-Title: Data Balancing and Scaling Analysis
+Title: A tool for data balancing and scaling analysis
 Version: 1.0.0
 Authors@R: c(person(given = "Milos", family = "Simovic", email = "milos.simovic@botany.ubc.ca", role = c("aut", "cre")), person(given = "Sean T.", family = "Michaletz", email = "sean.michaletz@ubc.ca", role = "aut"))
 Description: Provides tools for balancing imbalanced data in scaling analyses using
     bootstrapping, and for comparing regression coefficients (slopes and intercepts)
-    between original and balanced samples. Please cite Simovic and Michaletz (2025) 
-    when using this package (https://doi.org/10.1111/geb.70019).
+    between original and balanced samples.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Imports:
@@ -23,4 +22,7 @@ Depends:
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 LazyData: true
-URL: https://michaletzlab.github.io/balancR
+Config/needs/citation: inst/CITATION
+URL: https://michaletzlab.github.io/balancR/
+VignetteBuilder: knitr
+Suggests: knitr, rmarkdown

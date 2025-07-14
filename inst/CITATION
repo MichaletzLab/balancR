@@ -5,13 +5,12 @@ bibentry(
   title = "Harnessing the Full Power of Data to Characterise Biological Scaling Relationships",
   author = c(
     person(given = "M", family = "Simovic"),
-    person(given = "S.~T.", family = "Michaletz")
+    person(given = "S", middle = "T", family = "Michaletz")
   ),
   year = 2025,
   journal = "Global Ecology and Biogeography",
   volume = 34,
   number = 2,
   pages = "e70019",
-  doi = "10.1111/geb.70019",
-  url = "https://doi.org/10.1111/geb.70019"
+  doi = "https://doi.org/10.1111/geb.70019"
 )
